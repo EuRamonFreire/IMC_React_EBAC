@@ -37,7 +37,7 @@ function App() {
   return (
     <div>
       <h1> Calculadora IMC</h1>
-        <form> 
+        <form  > 
           <label htmlFor='peso'>Peso:</label><br/>
           <input type= 'number' name='peso' id='peso' 
           onChange={tratarMudancaPeso}
@@ -50,7 +50,7 @@ function App() {
           value={altura}/>
           <br/>
           <br/>
-          <input type='button' value='Calcular IMC' onClick={calcularIMC} />
+          <input  type='button' value='Calcular IMC' onClick={calcularIMC} id='calcular' />
           <br/>
           <br/>
 

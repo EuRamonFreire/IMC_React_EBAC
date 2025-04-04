@@ -38,7 +38,7 @@ label {
 input[type="number"],
 input[type="text"],
 input[type="button"] {
-  width: 90%;
+  width: 95%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
@@ -51,7 +51,6 @@ input[type="button"] {
   color: white;
   border: none;
   cursor: pointer;
-  width: 430px;
 }
 
 input[type="button"]:hover {
@@ -61,6 +60,10 @@ input[type="button"]:hover {
 b {
   font-size: 18px;
   color: #333;
+}
+
+#peso, #altura {
+  width: 90%;
 }
 
 /* Estilo responsivo para telas menores */
